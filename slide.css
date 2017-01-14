@@ -294,6 +294,8 @@
 	position: relative;
 	
 	padding: 0 5px;
+    
+    padding-bottom: 20px;
 	
 	/*min-height: 100%;*/
 }
@@ -302,6 +304,6 @@ slide {
 	display: block;
 }
 
-.slide:not(.full) {
-	padding-bottom: 20px;
+slide.full {
+    padding: 0;
 }
